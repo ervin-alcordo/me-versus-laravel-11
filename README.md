@@ -15,8 +15,12 @@ Follow these steps to set up the project after cloning the repository:
 ### 1. Clone the repository
 ### 2. composer install
 ### 3. npm install
-### 4. cp .env.example .env
-### 5. php artisan key:generate
-### 6. php artisan migrate
-### 7. npm run dev
-### 8. php artisan serve
+### 4. Create a database with collation of utf8mb4_unicode_ci
+### 5. cp .env.example .env
+### 6. php artisan key:generate
+
+Arrange the information of the env with your db info
+
+### 7. php artisan migrate
+### 8. npm run dev
+### 9. php artisan serve
